@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  background-image: url("https://slidebazaar.com/wp-content/uploads/2023/05/Free-Powerpoint-Backgrounds-Template-Green-and-White.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: blueviolet;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+button {
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+  border: 2px solid rgb(10, 8, 8);
+  border-radius: 40px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: wheat;
+}
+
+img {
+  border: 5px solid brown;
+  border-radius: 30px;
+  max-width: 90%;
+  height: 900px;
+  border-style: groove;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;             /* space between links */
+  margin-top: 40px;      /* space from top content */
+  margin-bottom: 60px;   /* space from the bottom of the page */
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  color: darkblue;
+  padding: 10px 20px;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+
